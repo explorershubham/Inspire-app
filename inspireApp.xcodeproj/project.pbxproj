@@ -7,21 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		91A66F814AF642C3EF75CA52 /* Pods_inspireApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 205F7B3F963C632AEFBFD858 /* Pods_inspireApp.framework */; };
+		D098A51921E4A12900615FD0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D098A51821E4A12900615FD0 /* ViewController.swift */; };
+		D098A51E21E4A20900615FD0 /* logIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = D098A51D21E4A20900615FD0 /* logIn.swift */; };
+		D098A52121E4A23500615FD0 /* register.swift in Sources */ = {isa = PBXBuildFile; fileRef = D098A52021E4A23500615FD0 /* register.swift */; };
 		D0B2EB4E21B7B50B00B48736 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B2EB4D21B7B50B00B48736 /* AppDelegate.swift */; };
-		D0B2EB5021B7B50B00B48736 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B2EB4F21B7B50B00B48736 /* ViewController.swift */; };
 		D0B2EB5321B7B50B00B48736 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0B2EB5121B7B50B00B48736 /* Main.storyboard */; };
 		D0B2EB5521B7B50B00B48736 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0B2EB5421B7B50B00B48736 /* Assets.xcassets */; };
 		D0B2EB5821B7B50B00B48736 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0B2EB5621B7B50B00B48736 /* LaunchScreen.storyboard */; };
+		D0E3650C21B7B9AA00A9D7FA /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D0E3650B21B7B9AA00A9D7FA /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1B0A286319DF0A08CA0DA8D7 /* Pods-inspireApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-inspireApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-inspireApp/Pods-inspireApp.release.xcconfig"; sourceTree = "<group>"; };
+		205F7B3F963C632AEFBFD858 /* Pods_inspireApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_inspireApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D098A51821E4A12900615FD0 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = "../../../Downloads/Inspire-master/Inspire/ViewController.swift"; sourceTree = "<group>"; };
+		D098A51D21E4A20900615FD0 /* logIn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = logIn.swift; sourceTree = "<group>"; };
+		D098A52021E4A23500615FD0 /* register.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = register.swift; sourceTree = "<group>"; };
 		D0B2EB4A21B7B50B00B48736 /* inspireApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = inspireApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0B2EB4D21B7B50B00B48736 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D0B2EB4F21B7B50B00B48736 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D0B2EB5221B7B50B00B48736 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D0B2EB5421B7B50B00B48736 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D0B2EB5721B7B50B00B48736 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D0B2EB5921B7B50B00B48736 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0E3650B21B7B9AA00A9D7FA /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+		D0E3650D21B7BDE800A9D7FA /* inspireApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = inspireApp.entitlements; sourceTree = "<group>"; };
+		D1DEF64DE5360FDAFFACED2A /* Pods-inspireApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-inspireApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-inspireApp/Pods-inspireApp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +40,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				91A66F814AF642C3EF75CA52 /* Pods_inspireApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		96C126FA8E996E9D42362FCD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				205F7B3F963C632AEFBFD858 /* Pods_inspireApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		97661FB487B08F10FDC0B54F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D1DEF64DE5360FDAFFACED2A /* Pods-inspireApp.debug.xcconfig */,
+				1B0A286319DF0A08CA0DA8D7 /* Pods-inspireApp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		D0B2EB4121B7B50B00B48736 = {
 			isa = PBXGroup;
 			children = (
 				D0B2EB4C21B7B50B00B48736 /* inspireApp */,
 				D0B2EB4B21B7B50B00B48736 /* Products */,
+				97661FB487B08F10FDC0B54F /* Pods */,
+				96C126FA8E996E9D42362FCD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,12 +85,16 @@
 		D0B2EB4C21B7B50B00B48736 /* inspireApp */ = {
 			isa = PBXGroup;
 			children = (
+				D0E3650D21B7BDE800A9D7FA /* inspireApp.entitlements */,
+				D098A51821E4A12900615FD0 /* ViewController.swift */,
+				D098A52021E4A23500615FD0 /* register.swift */,
+				D098A51D21E4A20900615FD0 /* logIn.swift */,
 				D0B2EB4D21B7B50B00B48736 /* AppDelegate.swift */,
-				D0B2EB4F21B7B50B00B48736 /* ViewController.swift */,
 				D0B2EB5121B7B50B00B48736 /* Main.storyboard */,
 				D0B2EB5421B7B50B00B48736 /* Assets.xcassets */,
 				D0B2EB5621B7B50B00B48736 /* LaunchScreen.storyboard */,
 				D0B2EB5921B7B50B00B48736 /* Info.plist */,
+				D0E3650B21B7B9AA00A9D7FA /* GoogleService-Info.plist */,
 			);
 			path = inspireApp;
 			sourceTree = "<group>";
@@ -71,9 +106,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D0B2EB5C21B7B50B00B48736 /* Build configuration list for PBXNativeTarget "inspireApp" */;
 			buildPhases = (
+				9CB2383758079A2A8DF3C822 /* [CP] Check Pods Manifest.lock */,
 				D0B2EB4621B7B50B00B48736 /* Sources */,
 				D0B2EB4721B7B50B00B48736 /* Frameworks */,
 				D0B2EB4821B7B50B00B48736 /* Resources */,
+				7789F5E25F84EFDE48A2D24D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -96,6 +133,11 @@
 				TargetAttributes = {
 					D0B2EB4921B7B50B00B48736 = {
 						CreatedOnToolsVersion = 10.1;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -123,6 +165,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D0B2EB5821B7B50B00B48736 /* LaunchScreen.storyboard in Resources */,
+				D0E3650C21B7B9AA00A9D7FA /* GoogleService-Info.plist in Resources */,
 				D0B2EB5521B7B50B00B48736 /* Assets.xcassets in Resources */,
 				D0B2EB5321B7B50B00B48736 /* Main.storyboard in Resources */,
 			);
@@ -130,13 +173,68 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		7789F5E25F84EFDE48A2D24D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-inspireApp/Pods-inspireApp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-inspireApp/Pods-inspireApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9CB2383758079A2A8DF3C822 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-inspireApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D0B2EB4621B7B50B00B48736 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D0B2EB5021B7B50B00B48736 /* ViewController.swift in Sources */,
+				D098A51921E4A12900615FD0 /* ViewController.swift in Sources */,
 				D0B2EB4E21B7B50B00B48736 /* AppDelegate.swift in Sources */,
+				D098A52121E4A23500615FD0 /* register.swift in Sources */,
+				D098A51E21E4A20900615FD0 /* logIn.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,9 +378,12 @@
 		};
 		D0B2EB5D21B7B50B00B48736 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1DEF64DE5360FDAFFACED2A /* Pods-inspireApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = inspireApp/inspireApp.entitlements;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MD98D63XG8;
 				INFOPLIST_FILE = inspireApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -297,9 +398,12 @@
 		};
 		D0B2EB5E21B7B50B00B48736 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B0A286319DF0A08CA0DA8D7 /* Pods-inspireApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = inspireApp/inspireApp.entitlements;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MD98D63XG8;
 				INFOPLIST_FILE = inspireApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
